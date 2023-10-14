@@ -64,7 +64,7 @@ nav {
 }
 
 .item {
-  border: 1.5px solid #000;
+  border: 1px solid #D15434;
   width: 40px;
 }
 
@@ -155,4 +155,61 @@ a.button {
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
+}
+
+.info-page {
+  height: 50vh;
+ padding: 10%;
+ background-color: #EDCC95;
+}
+
+.info-contanier {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+.info-block {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-block2 {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.block-border {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  
+}
+
+
+.item {
+  border: 1px solid #D15434;
+  width: 40px;
+}
+
+.item1 {
+  margin: -20px;
+  border: 1px solid #D15434;
+  width: 40px;
+  transform: rotate(90deg);
+}
+
+.block-border1 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  transform: rotate(90deg);
+  
 }
