@@ -117,7 +117,7 @@ h1.jap {
   display: flex;
   justify-content: center;
   height: 100%;
-  background-image: url(../assets/landing.jpg);
+  background-image: url("../assets/yokomain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
