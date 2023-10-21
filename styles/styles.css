@@ -185,7 +185,7 @@ h1.jap {
 .swiper-pagination-custom, .swiper-pagination-custom2 {
   width: 100px;
   margin: auto;
-  --swiper-pagination-color: blue;
+  --swiper-pagination-color: #3781A1;
   --swiper-pagination-left: auto;
 }
 
