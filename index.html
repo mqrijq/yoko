@@ -7,6 +7,14 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles/styles.css">
 
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+
+    <script type="module" src="./scripts/index.js"></script>
+
 </head>
 <body>
     <div class="wrapper">
@@ -163,21 +171,23 @@
                             </div>
                         </div>
 
-                        
                         <div class="info-bottom">
                             <div class="info-img-contanier">
-                                <img src="./assets/pet.jpg" class="info" />
+                                <div class="carousel">
+                                    <div class="swiper-container swiper swiper1">    
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide" id="swiper-slide-1"></div>
+                                            <div class="swiper-slide" id="swiper-slide-2"></div>
+                                            <div class="swiper-slide" id="swiper-slide-3"></div>
+                                            <div class="swiper-slide" id="swiper-slide-4"></div>
+                                        </div> 
+                                    </div>
+                                    <div class="swiper-pagination-wrapp"> 
+                                        <div class="swiper-pagination-custom"></div>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
-
-                             
-                        <div class="slide-dots">
-                            <div class="crc-active"></div>
-                            <div class="crc"></div>
-                            <div class="crc"></div>
-                            <div class="crc"></div>
-                        </div>
-
                         
                         <div class="rec2"></div>
                     </div>
@@ -263,15 +273,20 @@
 
                         <div class="info-bottom">
                             <div class="info-img-contanier">
-                                <img src="./assets/event.jpg" class="info" />
+                                <div class="carousel">
+                                    <div class="swiper-container swiper2 swiper">    
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide" id="swiper2-slide-1"></div>
+                                            <div class="swiper-slide" id="swiper2-slide-2"></div>
+                                            <div class="swiper-slide" id="swiper2-slide-3"></div>
+                                            <div class="swiper-slide" id="swiper2-slide-4"></div>
+                                        </div> 
+                                    </div>
+                                    <div class="swiper-pagination-wrapp2"> 
+                                        <div class="swiper-pagination-custom2"></div>
+                                    </div>
+                                </div> 
                             </div>
-                        </div>
-
-                        <div class="slide-dots">
-                            <div class="crc-active"></div>
-                            <div class="crc"></div>
-                            <div class="crc"></div>
-                            <div class="crc"></div>
                         </div>
 
                         <div class="rec2"></div>
@@ -330,9 +345,9 @@
                        </div>
                   </div>
                 </div>
-          </section>
+        </section>
 
-          <footer>
+        <footer>
             <div class="top-footer">
                 <div class="top-footer-col">
                     <div class="footer-lists">

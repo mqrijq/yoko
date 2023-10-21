@@ -2,6 +2,7 @@
 @import './header';
 @import './landing';
 @import './about';
+@import './carousel';
 
 .wrapper {
   background-color: #EDCC95;
@@ -184,7 +185,7 @@ a.button {
 
 .about-img{
   flex: 1;
-  background-image: url(img.folder/about.jpg);
+  background-image: url('../assets/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -283,7 +284,8 @@ a.button {
 
 .info-img-contanier{
   display: flex;
-  margin: 0 3em;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
@@ -596,5 +598,3 @@ p.price {
   height: 10%;
   background-color: #EDCC95;
   }
-
-

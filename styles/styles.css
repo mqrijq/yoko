@@ -96,6 +96,103 @@ h1.jap {
   font-weight: 600;
 }
 
+.carousel {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiper-container {
+  width: 90%;
+  height: 200px;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-slide, .swiper-slide2 {
+  height: 100%;
+  width: 100%;
+}
+
+#swiper-slide-1 {
+  background-image: url("../assets/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper-slide-2 {
+  background-image: url("../assets/event.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper-slide-3 {
+  background-image: url("../assets/cjen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper-slide-4 {
+  background-image: url("../assets/pet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper2-slide-1 {
+  background-image: url("../assets/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper2-slide-2 {
+  background-image: url("../assets/event.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper2-slide-3 {
+  background-image: url("../assets/cjen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swiper2-slide-4 {
+  background-image: url("../assets/vani.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-wrapper, .swiper-wrapper2 {
+  width: 100%;
+  height: 100%;
+  background: green;
+}
+
+.swiper-pagination-wrapp, .swiper-pagination-wrapp2 {
+  width: 70px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.swiper-pagination-custom, .swiper-pagination-custom2 {
+  width: 100px;
+  margin: auto;
+  --swiper-pagination-color: blue;
+  --swiper-pagination-left: auto;
+}
+
+#carousel-section {
+  height: 100vh;
+}
+
 .wrapper {
   background-color: #EDCC95;
   width: 100%;
@@ -271,7 +368,7 @@ a.button {
 
 .about-img {
   flex: 1;
-  background-image: url(img.folder/about.jpg);
+  background-image: url("../assets/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -368,7 +465,8 @@ a.button {
 
 .info-img-contanier {
   display: flex;
-  margin: 0 3em;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
