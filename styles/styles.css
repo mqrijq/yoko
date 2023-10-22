@@ -8,18 +8,26 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+#header-gap {
+  background-color: #fff;
+  position: relative;
+  height: 25%;
+}
+
 header {
+  top: 0;
+  position: fixed;
   width: 100%;
+  height: 25%;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  height: 25vh;
 }
 
 nav {
   flex: 1;
   width: 90%;
-  margin: 5% 5%;
+  margin: 2% 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,7 +95,7 @@ nav {
   font-size: 9px;
   font-weight: 400;
   margin: -2px;
-  color: red;
+  color: #353535;
 }
 
 h1.jap {
@@ -201,7 +209,7 @@ h1.jap {
 
 #landing-page {
   display: flex;
-  height: 75vh;
+  height: 75%;
 }
 
 .landing-wrapp {
@@ -267,6 +275,7 @@ a.button {
 }
 
 .info-block {
+  height: 100%;
   flex: 1;
   text-align: center;
   display: flex;
@@ -274,10 +283,12 @@ a.button {
 }
 
 .info-block2 {
+  height: 100%;
   flex: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: end;
 }
 
 .item {
@@ -291,24 +302,41 @@ a.button {
   display: flex;
 }
 
+
+.block-txt h2 {
+  margin: 0;
+  font-size: 12px;
+}
+
+.block-txt p {
+  padding: 2em;
+  margin: 0;
+  font-size: 10px;
+}
+
 #about-page {
   height: 100vh;
+  width: 100%;
   display: flex;
+  background-color: #fff;
 }
 
 .about-wrapp {
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
 .about-top {
-  display: grid;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
   flex: 1;
 }
 
 .about-title {
+  margin: 4em 4em 2em 4em;
   text-transform: uppercase;
   font-size: 7px;
   color: #3781A1;
@@ -317,10 +345,10 @@ a.button {
 }
 
 .about-txt {
-  margin: 2em;
+  margin: 0 2em 2em 2em;
 }
 
-.about-txt h1 {
+.about-txt h3 {
   margin-top: 0.4em;
   color: #1C2834;
   font-size: 28px;
@@ -362,8 +390,10 @@ a.button {
 }
 
 .about-bottom {
-  flex: 1;
+  flex: 2;
+  flex-direction: column;
   display: flex;
+  height: 100%;
 }
 
 .about-img {
@@ -508,6 +538,7 @@ a.button {
 }
 
 .menu-wrapp {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -515,6 +546,7 @@ a.button {
 .menu-top {
   flex: 1;
   width: 100%;
+  height: 100%;
 }
 
 .menu-title {
@@ -581,6 +613,7 @@ p.price {
 
 .menu-bottom {
   flex: 1;
+  height: 100%;
   width: 100%;
   background-color: #D15434;
 }
@@ -764,10 +797,29 @@ li {
 }
 
 .footer-logo {
-  width: 50px;
+  width: 150px;
 }
 
 .bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
   height: 10%;
+  color: #D15434;
   background-color: #EDCC95;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+p.copyright {
+  font-size: 10px; 
+}
+
+p.reserved {
+  font-size: 14px;
+  font-weight:400;
+}
+
+.line-break {
+  height: 9px;
+  border: 1px solid #D15434;
+}
