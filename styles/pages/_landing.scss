@@ -1,0 +1,55 @@
+#landing-page {
+    display: flex;
+    height: 75vh;
+  }
+  
+  .landing-wrapp {
+    width: 100%;
+    display: flex;
+  }
+  
+  .landing-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-image: url('../assets/yokomain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .button-wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 15px;
+    background-color: #D15434;
+    opacity: 0.8;
+    list-style: none;
+  }
+  
+  a.button {
+    text-decoration: none;
+  }
+  
+  .bx {
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  
+  .button p {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+  }

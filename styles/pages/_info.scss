@@ -1,0 +1,49 @@
+.info-page {
+    height: 50vh;
+   padding: 10%;
+   background-color: #EDCC95;
+  }
+  
+  .info-contanier {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  
+  }
+  
+  .info-block {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-block2 {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    border-right: 1px solid #D15434;
+    border-top: 1px solid #D15434;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  
+  .block-border {
+    display: flex;
+  
+  }
+  
+  .block-txt h2 {
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .block-txt p {
+    margin: 0;
+    font-size: 10px;
+  }
