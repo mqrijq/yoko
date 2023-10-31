@@ -1,4 +1,3 @@
-import carousel from './carousel.js'
-import dva from './dva.js'
+import carousel, { caroueslDrugi } from './carousel.js'
 carousel();
-dva();
+caroueslDrugi();

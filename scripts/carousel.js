@@ -23,4 +23,27 @@ const carousel = () => {
     });
 }
 
+export const caroueslDrugi = () => {
+  const swiper = new Swiper('.swiper2', {
+      // Optional parameters
+      direction: 'horizontal',    
+      loop: true,
+      speed: 400,
+      autoplay: {
+          delay: 1000, 
+          // disableOnInteraction: false, 
+      },
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination-custom2',
+      },
+  
+      navigation: {
+        nextEl: null,
+        prevEl: null,
+      },  
+  });
+}
+
 export default carousel;   
