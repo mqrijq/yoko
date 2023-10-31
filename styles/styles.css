@@ -302,7 +302,6 @@ a.button {
   display: flex;
 }
 
-
 .block-txt h2 {
   margin: 0;
   font-size: 12px;
@@ -330,7 +329,7 @@ a.button {
 .about-top {
   width: 100%;
   height: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex: 1;
 }
@@ -683,6 +682,7 @@ p.price {
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .top-wrapp .block-title h3 {
   margin-top: -7px;
   font-weight: bold;
@@ -811,15 +811,15 @@ li {
 }
 
 p.copyright {
-  font-size: 10px; 
+  font-size: 10px;
 }
 
 p.reserved {
   font-size: 14px;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .line-break {
   height: 9px;
   border: 1px solid #D15434;
-}
+}/*# sourceMappingURL=styles.css.map */
