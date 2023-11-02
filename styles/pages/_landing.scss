@@ -32,7 +32,7 @@
     justify-content: space-evenly;
     border: none;
     border-radius: 15px;
-    background-color: #D15434;
+    background-color: $orange;
     opacity: 0.8;
     list-style: none;
   }
@@ -42,7 +42,7 @@
   }
   
   .bx {
-    color: #fff;
+    color: $white;
     font-size: 25px;
   }
   
@@ -51,5 +51,5 @@
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #fff;
+    color: $white;
   }

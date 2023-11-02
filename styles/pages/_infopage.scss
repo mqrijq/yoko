@@ -1,7 +1,7 @@
 .info-page {
     height: 50vh;
    padding: 10%;
-   background-color: #EDCC95;
+   background-color: $peach;
   }
   
   .info-contanier {
@@ -26,8 +26,8 @@
   }
   
   .item {
-    border-right: 1px solid #D15434;
-    border-top: 1px solid #D15434;
+    border-right: 1px solid $orange;
+    border-top: 1px solid $orange;
     width: 2.5rem;
     height: 2.5rem;
   }

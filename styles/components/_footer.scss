@@ -1,14 +1,13 @@
 footer {
-    
   height: 50vh;
 }
 
 .top-footer {
-height: 90%;
-background-color: #D15434;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  height: 90%;
+  background-color:$orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-footer-col {
@@ -27,7 +26,7 @@ justify-content: space-between;
 
 .list-title h3 {
   font-size: 14px;
-  color: #fff;
+  color: $white;
   font-weight: 600;
 }
 
@@ -39,12 +38,12 @@ ul {
 }
 
 li a {
-  color: #EDCC95;
+  color:$peach;
   font-size: 14px;
 }
 
-li  {
-  color: #EDCC95;
+li {
+  color: $peach;
   font-size: 14px;
 }
 
@@ -57,10 +56,29 @@ li  {
 }
 
 .footer-logo {
-  width: 50px;
+  width: 150px;
 }
 
 .bottom-footer {
-height: 10%;
-background-color: #EDCC95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 10%;
+  color: $orange;
+  background-color:$peach;
+}
+
+p.copyright {
+  font-size: 10px; 
+}
+
+p.reserved {
+  font-size: 14px;
+  font-weight:400;
+}
+
+.line-break {
+  height: 9px;
+  border: 1px solid $orange;
 }

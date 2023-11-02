@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300;600&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap"); @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@800&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300;600&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@800&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300;400;600&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
 
@@ -9,12 +10,15 @@ body {
 }
 
 .wrapper {
-  background-color: #EDCC95;
+  background-color: $peach;
   width: 100%;
   height: 100vh;
 }
 
 $blue: #3781A1;
+$white:#fff;
 $orange: #D15434;
-$peach: '';
+$peach: #EDCC95;
 $grey: #1C2834;
+$light-gray:#686868;
+$black:#000;
