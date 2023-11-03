@@ -1,14 +1,14 @@
-// @import './config';
+//@import './config';
 
-// @import './components/carousel';
-// @import './components/header';
-// @import './components/footer';
+//@import './components/carousel';
+//@import './components/header';
+//@import './components/footer';
 
-// @import './pages/about';
-// @import './pages/pet';
-// @import './pages/landing';
-// @import './pages/info';
-// @import './pages/event';
+ //@import './pages/about';
+ //@import './pages/pet';
+ //@import './pages/landing';
+ //@import './pages/info';
+ @import './pages/event';
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300;600&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@800&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
@@ -239,45 +239,12 @@ h1.jap {
   background-repeat: no-repeat;
 }
 
-.button-wrapp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.button {
-  height: 40px;
-  width: 200px;
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  border: none;
-  border-radius: 15px;
-  background-color: #D15434;
-  opacity: 0.8;
-  list-style: none;
-}
-
-a.button {
-  text-decoration: none;
-}
-
-.bx {
-  color: #fff;
-  font-size: 25px;
-}
-
-.button p {
-  font-size: 11px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #fff;
-}
 
 .info-page {
   height: 50vh;
   padding: 10%;
-  background-color: #EDCC95;
+  background-color: $peach;
 }
 
 .info-contanier {
@@ -304,8 +271,8 @@ a.button {
 }
 
 .item {
-  border-right: 1px solid #D15434;
-  border-top: 1px solid #D15434;
+  border-right: 1px solid $orange;
+  border-top: 1px solid $orange;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -330,7 +297,7 @@ a.button {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .about-wrapp {
@@ -553,6 +520,7 @@ a.button {
   width: 100%;
   display: flex;
   flex-direction: column;
+
 }
 
 .menu-top {
