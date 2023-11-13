@@ -29,7 +29,8 @@ header {
 
   .nav-hamburger-contanier {
       flex: 1;
-      display: block;
+      display: flex;
+      justify-content: end;
   } 
   .nav-hamburger-items {
     flex: 1;

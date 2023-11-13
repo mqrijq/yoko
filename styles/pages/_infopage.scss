@@ -1,10 +1,11 @@
 .info-page {
-    height: 50vh;
+   
    padding: 10%;
    background-color: $peach;
   }
   
   .info-contanier {
+    gap: 2.5em;
     display: flex;
     flex-direction: column;
     height: 100%;
