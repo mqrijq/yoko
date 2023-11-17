@@ -1,15 +1,13 @@
 .info-page {
-   
    padding: 10%;
+   height: auto;
    background-color: $peach;
   }
   
   .info-contanier {
-    gap: 2.5em;
+    gap: 2em;
     display: flex;
     flex-direction: column;
-    height: 100%;
-  
   }
   
   .info-block {
@@ -17,18 +15,29 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .rec1 {
+    padding: .5em;
+    align-self: end;
+    border-top: 1.5px solid $orange;
+    border-right: 1.5px solid $orange;
+    width: 30px;
+    height: 30px;
   }
   
-  .info-block2 {
-    flex: 1;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  .rec2 {
+    padding: .5em;
+    border-left: 2px solid $orange;
+    border-bottom: 2px solid $orange;
+    width: 30px;
+    height: 30px;
   }
   
   .item {
-    border-right: 1px solid $orange;
-    border-top: 1px solid $orange;
+    border-right: 2px solid $orange;
+    border-top: 2px solid $orange;
     width: 2.5rem;
     height: 2.5rem;
   }
@@ -39,12 +48,16 @@
   
   }
   
-  .block-txt h1 {
+  .block-txt {
+    margin: 0;
+    padding: 4em;
+  }
+
+  .block-txt h2 {
     margin: 0;
   }
   
   .block-txt p {
     margin: 0;
-    padding: 2em 3em 3em 3em;
-    font-size: 22px;
+    font-size: 18px;
   }

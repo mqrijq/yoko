@@ -9,19 +9,10 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  height: 100vh;
+  max-width: 480px;
+  height: 100%;
 }
 
-@media screen and (min-width: 450px) {
-  .about-title {
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: #3781A1;
-    font-weight: 600;
-  }
-}
 .carousel {
   width: 100%;
   height: 230px;
@@ -186,19 +177,19 @@ nav {
 }
 
 .title h1 {
-  font-size: 28px;
+  font-size: 32px;
   margin: 0;
   font-weight: 600;
 }
 
 .title p {
-  font-size: 9px;
+  font-size: 15px;
   font-weight: 400;
   margin: -2px;
 }
 
 h1.jap {
-  font-size: 15px;
+  font-size: 22px;
   margin: 0;
   font-weight: 600;
 }
@@ -301,13 +292,13 @@ p.reserved {
   width: 100%;
 }
 
-.about-top {
+#about-top {
   padding: 3em;
-  height: 100%;
-  display: flex;
+  /*height: 100%;
+  display:flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex: 1;
+  flex: 1;*/
 }
 
 .about-title {
@@ -329,6 +320,7 @@ p.reserved {
 }
 
 .about-txt h3 {
+  padding: 0.5em 0;
   color: #1C2834;
   font-size: 43px;
   font-weight: 800;
@@ -337,35 +329,34 @@ p.reserved {
 
 .about-txt p {
   margin: 0;
-  font-size: 22px;
+  font-size: 18px;
   color: #686868;
   font-weight: 300;
 }
 
 .about-info {
-  gap: 5em;
+  justify-content: space-between;
   display: flex;
 }
 
-.info h3 {
+.info h1 {
+  font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 17px;
   color: #D15434;
   font-weight: 600;
 }
 
 .info p {
   margin: 0;
-  font-size: 22px;
+  font-size: 18px;
   color: #686868;
   font-weight: 300;
 }
 
-.about-bottom {
+#about-bottom {
   flex: 1;
-  width: 100%;
-  background-color: #D15434;
+  height: 100%;
 }
 
 .about-img {
@@ -373,18 +364,8 @@ p.reserved {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
 }
 
-@media screen and (min-width: 450px) {
-  .about-title {
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: #3781A1;
-    font-weight: 600;
-  }
-}
 #landing-page {
   display: flex;
   height: 75vh;
@@ -625,14 +606,14 @@ p.price {
 
 .info-page {
   padding: 10%;
+  height: auto;
   background-color: #EDCC95;
 }
 
 .info-contanier {
-  gap: 2.5em;
+  gap: 2em;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .info-block {
@@ -640,18 +621,29 @@ p.price {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.info-block2 {
-  flex: 1;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+.rec1 {
+  padding: 0.5em;
+  align-self: end;
+  border-top: 1.5px solid #D15434;
+  border-right: 1.5px solid #D15434;
+  width: 30px;
+  height: 30px;
+}
+
+.rec2 {
+  padding: 0.5em;
+  border-left: 2px solid #D15434;
+  border-bottom: 2px solid #D15434;
+  width: 30px;
+  height: 30px;
 }
 
 .item {
-  border-right: 1px solid #D15434;
-  border-top: 1px solid #D15434;
+  border-right: 2px solid #D15434;
+  border-top: 2px solid #D15434;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -660,14 +652,18 @@ p.price {
   display: flex;
 }
 
-.block-txt h1 {
+.block-txt {
+  margin: 0;
+  padding: 4em;
+}
+
+.block-txt h2 {
   margin: 0;
 }
 
 .block-txt p {
   margin: 0;
-  padding: 2em 3em 3em 3em;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #event-page {

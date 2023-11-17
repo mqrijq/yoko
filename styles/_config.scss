@@ -10,8 +10,8 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  height: 100vh;
+  max-width: 480px;
+  height: 100%;
 }
 
 $blue: #3781A1;
@@ -22,13 +22,5 @@ $grey: #1C2834;
 $light-gray:#686868;
 $black:#000;
 
-@media screen and (min-width:450px) {
-  .about-title {
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 30px;
-    color:$blue;
-    font-weight: 600;
-  }
-}
+
 

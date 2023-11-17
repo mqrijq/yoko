@@ -12,13 +12,13 @@
   width: 100%;
 }
 
-.about-top {
+#about-top {
   padding: 3em;
-  height: 100%;
+  /*height: 100%;
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex: 1;
+  flex: 1;*/
 }
 
 .about-title {
@@ -40,6 +40,7 @@
 }
 
 .about-txt h3 {
+  padding: .5em 0;
   color: $grey;
   font-size: 43px;
   font-weight: 800;
@@ -49,35 +50,34 @@
 
 .about-txt p {
   margin: 0;
-  font-size: 22px;
+  font-size: 18px;
   color: $light-gray;
   font-weight: 300;
 }
 
 .about-info {
-  gap: 5em;
+  justify-content: space-between;
   display: flex;
 }
 
-.info h3 {
+.info h1 {
+  font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 17px;
   color: $orange;
   font-weight: 600;
 }
 
 .info p {
   margin: 0;
-  font-size: 22px;
+  font-size: 18px;
   color: $light-gray;
   font-weight: 300;
 }
 
-.about-bottom {
+#about-bottom {
   flex: 1;
-  width: 100%;
-  background-color: $orange;
+  height: 100%;
 }
 
 .about-img {
@@ -85,15 +85,5 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
 }
 
-@media screen and (min-width:450px) {
-  .about-title {
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 30px;
-    color:$blue;
-    font-weight: 600;
-  }
-}
