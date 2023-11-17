@@ -1,28 +1,24 @@
 #about-page {
-  height: 100vh;
-  width: 100%;
   display: flex;
   background-color:$white;
 
 }
 
 .about-wrapp {
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 #about-top {
   padding: 3em;
-  /*height: 100%;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex: 1;*/
+  flex: 1;
 }
 
 .about-title {
-  margin: 0;
+  
+ margin: 0;
   text-transform: uppercase;
   font-size: 10px;
   color:$blue;
@@ -30,6 +26,7 @@
 }
 
 .about-title h1{
+  font-size: 14px;
   margin: 0;
 } 
 
@@ -42,7 +39,7 @@
 .about-txt h3 {
   padding: .5em 0;
   color: $grey;
-  font-size: 43px;
+  font-size: 35px;
   font-weight: 800;
   margin: 0;
 
@@ -50,9 +47,9 @@
 
 .about-txt p {
   margin: 0;
-  font-size: 18px;
+  font-size: 14px;
   color: $light-gray;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .about-info {
@@ -61,22 +58,22 @@
 }
 
 .info h1 {
-  font-size: 18px;
+  margin-top: 2em;
+  font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 0;
   color: $orange;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .info p {
   margin: 0;
-  font-size: 18px;
-  color: $light-gray;
-  font-weight: 300;
+  font-size: 14px;
+  color: $black;
+  font-weight: 400;
 }
 
 #about-bottom {
-  flex: 1;
   height: 100%;
 }
 

@@ -1,7 +1,6 @@
 #info-section {
     display: flex;
     flex-direction: column;
-    justify-self: center;
     height: auto;
     background-color: $peach;
   }
@@ -14,9 +13,7 @@
   }
   
   .wrapp-borders {
-    gap: 1em;
-    height: 100%;
-    width: 100%;
+    gap: 1.5em;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -39,14 +36,9 @@
   
   .info-content {
     margin: 0 3em;
+
     text-align: center;
     display: flex;
-    flex-direction: column;
-  }
-  
-  .info-txt {
-    align-items: center;
-    flex: 1;
     flex-direction: column;
   }
   
@@ -57,6 +49,7 @@
   }
   
   .crc-svg {
+    font-size: 20px;
     border: 1px solid $orange;
     border-radius: 50%;
     width: 20px;
@@ -66,19 +59,13 @@
     align-items: center;
   }
   
-  .info-description {
-    flex: 1;
-  }
   
-  .info-description h1 {
-    font-size: 11px;
+  .info-description h2 {
     color:$orange;
-    font-weight: 800;
   }
   
   .info-description p {
-    font-size: 9px;
-    color: $black;
+    font-size: 18px;
     font-weight: 300;
   }
   
