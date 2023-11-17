@@ -22,3 +22,13 @@ $grey: #1C2834;
 $light-gray:#686868;
 $black:#000;
 
+@media screen and (min-width:450px) {
+  .about-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:$blue;
+    font-weight: 600;
+  }
+}
+

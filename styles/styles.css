@@ -13,6 +13,15 @@ body {
   height: 100vh;
 }
 
+@media screen and (min-width: 450px) {
+  .about-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #3781A1;
+    font-weight: 600;
+  }
+}
 .carousel {
   width: 100%;
   height: 230px;
@@ -367,6 +376,15 @@ p.reserved {
   height: 100%;
 }
 
+@media screen and (min-width: 450px) {
+  .about-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #3781A1;
+    font-weight: 600;
+  }
+}
 #landing-page {
   display: flex;
   height: 75vh;
