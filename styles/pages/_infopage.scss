@@ -5,17 +5,14 @@
   }
   
   .info-contanier {
-    gap: 2em;
     display: flex;
     flex-direction: column;
   }
   
   .info-block {
-    flex: 1;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   .rec1 {
@@ -25,6 +22,10 @@
     border-right: 1.5px solid $orange;
     width: 30px;
     height: 30px;
+  }
+
+  .block-icon {
+    margin: 1em;
   }
   
   .rec2 {
@@ -50,12 +51,11 @@
   
   .block-txt {
     margin: 0;
-    padding: 4em;
   }
 
   .block-txt h2 {
     color: $orange;
-    padding: .5em;
+    margin: 0;
   }
   
   .block-txt p {

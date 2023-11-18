@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@800&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,500;1,500&family=Jost:wght@300;400;600&family=Mukta&family=Poppins:wght@200&family=Rowdies:wght@700&family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -177,32 +178,33 @@ nav {
 }
 
 .title h1 {
-  font-size: 32px;
-  margin: 0;
+  font-family: "Courgette", cursive;
+  font-size: 40px;
+  margin: 7px;
   font-weight: 600;
 }
 
 .title p {
-  font-size: 15px;
+  color: #686868;
+  font-size: 24px;
   font-weight: 400;
   margin: -2px;
 }
 
 h1.jap {
-  font-size: 22px;
-  margin: 0;
+  font-size: 18px;
   font-weight: 600;
 }
 
 footer {
   height: 40vh;
-  background-color: #EDCC95;
+  background-color: #D15434;
 }
 
 #top-footer {
   height: 90%;
   padding: 3em;
-  background-color: #EDCC95;
+  background-color: #D15434;
   display: flex;
   flex-direction: column;
 }
@@ -218,7 +220,7 @@ footer {
 }
 
 ul {
-  gap: 1em;
+  gap: 0.5em;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -228,7 +230,7 @@ ul {
 
 li a {
   text-decoration: none;
-  color: #fff;
+  color: #EDCC95;
   font-size: 14px;
 }
 
@@ -245,7 +247,7 @@ li a {
 }
 
 .footer-txt p {
-  color: #fff;
+  color: #EDCC95;
   font-size: 14px;
 }
 
@@ -256,7 +258,7 @@ li a {
   gap: 1em;
   height: 10%;
   color: #fff;
-  background-color: #D15434;
+  background-color: #3781A1;
 }
 
 p.copyright {
@@ -275,7 +277,7 @@ p.reserved {
 
 #icon {
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 #about-page {
@@ -285,11 +287,15 @@ p.reserved {
 
 .about-wrapp {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 #about-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 3em;
   flex: 1;
 }
@@ -311,6 +317,7 @@ p.reserved {
   display: flex;
   justify-content: end;
   flex-direction: column;
+  margin: 2em 0;
 }
 
 .about-txt h3 {
@@ -329,6 +336,7 @@ p.reserved {
 }
 
 .about-info {
+  margin: 2em 0;
   justify-content: space-between;
   display: flex;
 }
@@ -397,7 +405,6 @@ p.reserved {
 }
 
 .wrapp-borders {
-  gap: 1.5em;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -446,6 +453,7 @@ p.reserved {
 }
 
 .info-description p {
+  margin: 2em 0;
   font-size: 18px;
   font-weight: 300;
 }
@@ -493,11 +501,15 @@ p.reserved {
 
 .menu-wrapp {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 #menu-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 3em;
   flex: 1;
 }
@@ -540,6 +552,7 @@ p.reserved {
   margin-top: 2em;
   font-size: 12px;
   text-transform: uppercase;
+  margin-bottom: 0;
   color: #D15434;
   font-weight: 800;
 }
@@ -590,17 +603,14 @@ p.price {
 }
 
 .info-contanier {
-  gap: 2em;
   display: flex;
   flex-direction: column;
 }
 
 .info-block {
-  flex: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .rec1 {
@@ -610,6 +620,10 @@ p.price {
   border-right: 1.5px solid #D15434;
   width: 30px;
   height: 30px;
+}
+
+.block-icon {
+  margin: 1em;
 }
 
 .rec2 {
@@ -633,12 +647,11 @@ p.price {
 
 .block-txt {
   margin: 0;
-  padding: 4em;
 }
 
 .block-txt h2 {
   color: #D15434;
-  padding: 0.5em;
+  margin: 0;
 }
 
 .block-txt p {

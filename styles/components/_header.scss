@@ -64,19 +64,20 @@ header {
   }
   
   .title h1 {
-    font-size: 32px;
-    margin: 0;
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    margin: 7px;
     font-weight: 600;
   }
   
   .title p {
-    font-size: 15px;
+    color: $light-gray;
+    font-size: 24px;
     font-weight: 400;
     margin: -2px;
   }
   
   h1.jap {
-    font-size: 22px;
-    margin: 0;
+    font-size: 18px;
     font-weight: 600;
   }
