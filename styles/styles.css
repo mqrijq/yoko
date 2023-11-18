@@ -8,7 +8,7 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-.wrapper {
+#wrapper {
   max-width: 480px;
   height: 100%;
 }
@@ -195,81 +195,87 @@ h1.jap {
 }
 
 footer {
-  height: 50vh;
+  height: 40vh;
+  background-color: #EDCC95;
 }
 
-.top-footer {
+#top-footer {
   height: 90%;
+  padding: 3em;
   background-color: #EDCC95;
   display: flex;
+  flex-direction: column;
 }
 
 #top-footer-left {
-  display: flex;
   flex: 1;
-  width: 100%;
-}
-
-#top-footer-right {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  width: 100%;
-}
-
-.footer-lists {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .list-title h3 {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
 
 ul {
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
 }
 
 li a {
-  color: #EDCC95;
+  text-decoration: none;
+  color: #fff;
   font-size: 14px;
 }
 
-li {
-  color: #EDCC95;
+#top-footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-txt h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer-txt p {
+  color: #fff;
   font-size: 14px;
 }
 
-.bottom-footer {
+#bottom-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1em;
   height: 10%;
   color: #fff;
-  background-color: #3781A1;
+  background-color: #D15434;
 }
 
 p.copyright {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 p.reserved {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 .line-break {
   height: 9px;
   border: 1px solid #fff;
+}
+
+#icon {
+  color: #fff;
+  font-size: 20px;
 }
 
 #about-page {
@@ -349,6 +355,7 @@ p.reserved {
 }
 
 .about-img {
+  height: 100%;
   background-image: url("../../assets/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -427,8 +434,8 @@ p.reserved {
 .crc-svg {
   border: 1px solid #D15434;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -636,6 +643,7 @@ p.price {
 
 .block-txt p {
   margin: 0;
+  padding: 2em;
   font-size: 18px;
 }
 
