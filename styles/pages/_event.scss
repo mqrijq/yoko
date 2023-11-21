@@ -1,4 +1,5 @@
 #event-page {
+  height: 130vh;
     height: auto;
     display: flex;
     background-color: $white;
@@ -47,7 +48,7 @@
     }
   
  #event-bottom {
-    height: 50vh;
+    height: 100%;
     }
     
   .event-sections {

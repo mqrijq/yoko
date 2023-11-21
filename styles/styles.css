@@ -197,7 +197,6 @@ h1.jap {
 }
 
 footer {
-  height: 40vh;
   background-color: #D15434;
 }
 
@@ -571,6 +570,7 @@ p.price {
 }
 
 #event-page {
+  height: 130vh;
   height: auto;
   display: flex;
   background-color: #fff;
@@ -619,7 +619,7 @@ p.price {
 }
 
 #event-bottom {
-  height: 50vh;
+  height: 100%;
 }
 
 .event-sections {
@@ -785,7 +785,6 @@ p.price {
 }
 
 .about-info {
-  margin: 2em 0;
   justify-content: space-between;
   display: flex;
 }
