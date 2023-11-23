@@ -10,10 +10,16 @@ body {
     font-family: "Jost", sans-serif;
 }
 
-#wrapper {
-  width: 100%;
-  height: 100%;
-}
+/*@media screen and (max-width:480px) {
+  #wrapper {
+    max-width: 480px;
+    height: 100%;
+  }
+}/
+
+
+
+
 
 $blue: #3781A1;
 $white:#fff;

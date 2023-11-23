@@ -4,7 +4,6 @@
 }
 
 .about-wrapp {
-  flex-shrink: 2;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -91,14 +90,14 @@
 
 @media screen and (min-width:480px) {
   .about-wrapp {
-    flex-shrink: 1;
-    width: 100%;
+    min-width:  480px;
     height: 100vh;
     display: flex;
     flex-direction: row;
   }
 
   #about-top {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;

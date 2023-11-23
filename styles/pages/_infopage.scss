@@ -63,3 +63,18 @@
     padding: 2em;
     font-size: 18px;
   }
+
+  @media screen and (min-width:480px) {
+    .info-page {
+      min-width: 480px;
+      padding: 5%;
+      height: auto;
+      background-color: $peach;
+     }
+
+    .info-contanier {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+ 
