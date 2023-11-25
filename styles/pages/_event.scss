@@ -1,17 +1,19 @@
 #event-page {
-  height: 130vh;
-    height: auto;
+   height: 120vh;
+   padding: 4em;
+   height: auto;
     display: flex;
     flex-direction: column;
     background-color: $white;
 }
     
   .event-wrapp {
-    padding: 3em;
+    height: auto;
+    width: 100%;
     }
     
   #event-top {
-    padding-bottom: 3em;
+    padding-bottom: 3.5em;
     }
   
     .event-title {
