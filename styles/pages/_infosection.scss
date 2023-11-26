@@ -105,3 +105,15 @@
     width: 1px;
     height: 1px;
   }
+
+  @media screen and (min-width:480px) {
+
+    .info-wrapp {
+      flex-direction:row;
+      padding: 2.3em;
+      display: flex;
+      height: 100vh;
+      width: 480px;
+    }
+  
+  }
