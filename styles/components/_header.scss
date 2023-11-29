@@ -1,4 +1,5 @@
 #header {
+  height: 25%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -106,25 +107,28 @@ h1.jap {
 .nav-list-contanier {
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: end;
 }
 
 
-#nav-links ul {
+#nav-links {
   gap: 4em;
   display: flex;
-  flex-direction: column;
-  margin: 0;
+  flex-direction: row;
   padding: 0;
   list-style: none;
-  color: $grey;
 }
 
-.nav-links li {
-  list-style: none;
-  font-size: 22px;
-  color: $grey;
+.nav-li {
+  text-decoration: none;
+  color:$grey;
+  font-size: 20px;
 }
+
+
+
+
+
 
 }
 

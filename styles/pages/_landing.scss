@@ -1,6 +1,6 @@
 #landing-page {
     display: flex;
-    height: 100vh;
+    height: 75%;
   }
   
   .landing-wrapp {
@@ -12,7 +12,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: 75vh;
     background-image: url('../assets/yokomain.jpg');
     background-size: cover;
     background-repeat: no-repeat;

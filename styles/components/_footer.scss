@@ -15,19 +15,12 @@ footer {
 }
 
 .list-title h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: $white;
   font-weight: 600;
 }
 
-ul {
-  gap: .5em;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+
 
 li a {
   text-decoration: none;
@@ -51,7 +44,7 @@ li a {
 
 .footer-txt p {
   color:$peach;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #bottom-footer {
@@ -86,13 +79,13 @@ p.copyright , p.reserved {
   }
   
   .list-title h3 {
-    font-size: 14px;
+    font-size: 16px;
     color: $white;
     font-weight: 600;
   }
 
-  ul {
-    gap: .5em;
+  #footer-links {
+    gap: 1em;
     display: flex;
     flex-direction: row;
     margin: 0;

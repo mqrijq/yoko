@@ -173,10 +173,11 @@
   }
 
   #event-bottom {
-    height: 50vh;
+    height:auto;
   }
 
   .event-sections {
+    height: 40vh;
     flex-direction: row; 
   }
 
@@ -186,6 +187,8 @@
 
   .rec2 {
     padding: 0;
+    border-left: 1.5px solid $orange;
+    border-bottom: 1.5px solid $orange;
   }
 
   .event-txt h3 {
@@ -205,5 +208,7 @@
   .event-sections {
     height: 45vh;
   }
+
+ 
 }
 
