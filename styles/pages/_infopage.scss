@@ -65,14 +65,14 @@
 }
 
 @media screen and (min-width:480px) {
-  .info-page {
-  padding: 5%;
-  height: auto;
-  background-color: $peach;
-  }
 
+  .info-page {
+    padding: 7%;
+  }
+  
   .info-contanier {
   display: flex;
+  gap: 3.5em;
   justify-content: space-around;
   flex-direction: row;
   }

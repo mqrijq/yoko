@@ -1,82 +1,130 @@
-header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color:$white;
-  }
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:$white;
+}
   
-  nav {
-    flex: 1;
-    width: 90%;
-    margin: 5% 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .nav-logo-contanier {
-    flex: 1;
-  }
-  
-  .logo {
-    width: 50px;
-  }
-  
-  .nav-list-contanier {
-    display: none;
-  }
+nav {
+  flex: 1;
+  width: 90%;
+  margin: 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .nav-hamburger-contanier {
-      flex: 1;
-      display: flex;
-      justify-content: end;
-  } 
-  .nav-hamburger-items {
+.nav-logo-contanier {
+  flex: 1;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-list-contanier {
+  display: none;
+}
+
+.nav-hamburger-contanier {
     flex: 1;
-  }
-  
-  .hamburger-items {
-    gap: 0.4em;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .line {
-    border: 1px solid $black;
-    width: 40px;
-  }
-  
-  .header-bottom {
-    flex: 2;
-    text-align: center;
-    background-color: $white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .bottom-txt {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .title h1 {
-    font-family: 'Courgette', cursive;
-    font-size: 40px;
-    margin: 7px;
-    font-weight: 600;
-  }
-  
-  .title p {
-    color: $light-gray;
-    font-size: 18px;
-    font-weight: 400;
-    margin: -2px;
-  }
-  
-  h1.jap {
-    font-size: 18px;
-    font-weight: 600;
-  }
+    justify-content: end;
+} 
+.nav-hamburger-items {
+  flex: 1;
+}
+
+.hamburger-items {
+  gap: 0.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border: 1.5px solid $grey;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.header-bottom {
+  flex: 2;
+  text-align: center;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 35px;
+  margin: 7px;
+  font-weight: 600;
+}
+
+.title p {
+  color: $light-gray;
+  font-size: 18px;
+  font-weight: 400;
+  margin: -2px;
+}
+
+h1.jap {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (min-width:900px) {
+.logo {
+  width: 85px;
+}
+
+.title h1 {
+  font-size: 55px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+h1.jap {
+  font-size: 20px;
+}
+
+.nav-hamburger-contanier {
+  display: none;
+}
+
+.nav-list-contanier {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+
+#nav-links ul {
+  gap: 4em;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: $grey;
+}
+
+.nav-links li {
+  list-style: none;
+  font-size: 22px;
+  color: $grey;
+}
+
+}
+
