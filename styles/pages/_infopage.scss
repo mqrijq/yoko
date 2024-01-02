@@ -59,9 +59,10 @@
 }
 
 .block-txt p {
+  color: $grey;
   margin: 0;
   padding: 2em;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media screen and (min-width:480px) {
